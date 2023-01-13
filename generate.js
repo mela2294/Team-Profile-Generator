@@ -6,8 +6,11 @@ const generateTeam = (team) => {
         let managerHtml = `
         <div class='card' style='width: 18rem;'>
         <div class='card-header'>
+        <h2 class='card-title'>{{ name }}</h2>
+        <h3 class='card-title'><i class='fas fa-glasses mr-2'></i>{{ role }}</h3>
+        </div>
         ${manager.name} <br/>
-        <i class='fas fa-mug-hot'></i>Manager<div>
+        <div class="card-body">
         <ul class='list-group list-group-flush'>
         <li class='list-group-item'>ID: ${manager.Id}</li>
         <li class='list-group-item'>Email: <span id='email'><a href='mailto:${manager.email}'></a></span></li>
@@ -22,7 +25,11 @@ const generateTeam = (team) => {
         let engineerHtml = `
         <div class='card' style='width: 18rem;'>
         <div class='card-header'>
+        <h2 class='card-title'>{{ name }}</h2>
+        <h3 class='card-title'><i class='fas fa-glasses mr-2'></i>{{ role }}</h3>
+        </div>
         ${engineer.name} <br/>
+        <div class="card-body">
         <i class='fas fa-mug-hot'></i>Engineer<div>
         <ul class='list-group list-group-flush'>
         <li class='list-group-item'>ID: ${engineer.Id}</li>
@@ -38,7 +45,11 @@ const generateTeam = (team) => {
         let internHtml = `
         <div class='card' style='width: 18rem;'>
         <div class='card-header'>
+        <h2 class='card-title'>{{ name }}</h2>
+        <h3 class='card-title'><i class='fas fa-glasses mr-2'></i>{{ role }}</h3>
+        </div>
         ${intern.name} <br/>
+        <div class="card-body">
         <i class='fas fa-mug-hot'></i>Intern<div>
         <ul class='list-group list-group-flush'>
         <li class='list-group-item'>ID: ${intern.Id}</li>
