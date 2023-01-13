@@ -1,0 +1,19 @@
+{
+  "name": "module-10---team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "author": "mela",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
